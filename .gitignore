@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# 分析/预览产出的对照图
+tools/out/
+
+# PyInstaller
+build/
+dist/
+dist_onedir/
+*.spec

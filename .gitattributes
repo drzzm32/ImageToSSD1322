@@ -1,0 +1,13 @@
+# 这是个 Python 项目：工作区和仓库统一用 LF。
+# 系统级 core.autocrlf=true（Git for Windows 默认）会把检出改成 CRLF，
+# 这里显式压回 LF —— 顺便也消掉 "LF will be replaced by CRLF" 那串警告。
+* text=auto eol=lf
+
+# 二进制：别做任何行尾转换
+*.png  binary
+*.jpg  binary
+*.ico  binary
+*.exe  binary
+*.dll  binary
+*.pyd  binary
+*.zip  binary
